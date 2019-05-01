@@ -8,7 +8,7 @@ public class Question1Test {
 	@SuppressWarnings("static-access")
 	@Test
 	public void testEce() {
-		//new ECE();
+		//Courses ece=new ECE();
 		assertEquals("You have chosen ECE department.\nThe common subjects are:\n1. Engineering Mathematics\n2. Physics\n3. Chemistry\nECE specific subjects are:\n4. Microprocessor\n5. Linear Integrated Circuits",new ECE().displayCourseDetails("ECE"));
 	}
 	@SuppressWarnings("static-access")
